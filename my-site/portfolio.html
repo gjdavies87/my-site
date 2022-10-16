@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gary Davies Gallery Page</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="page-container mx-auto">
+    <header class="header text-center">
+      <h1 class="title text-uppercase">Gary Davies</h1>
+      <p class="primary-color"><i>Portfolio</i></p>
+    </header>
+
+    <div class="section">
+      <nav class="nav">
+        <ul>
+          <li>
+            <a href="index.html"><span class="nav-deco"></span>Intro</a>
+          </li>
+          <li class="active">
+            <a href="portfolio.html"><span class="nav-deco"></span>Portfolio</a>
+          </li>
+          <li>
+            <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="content-container">
+        <div class="content content-2">
+          <p>
+            This gallery contains a beautiful hover effect and pop-up larger
+            images. Please mention TemplateMo site to your friends.
+          </p>
+
+          <div class="container-fluid">
+            <div class="row gallery" id="tmGallery">
+              <div class="col-sm-6 gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/gallery-img-01.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2>Fresh <span>Bubba</span></h2>
+                    <p>Bubba likes to appear out of thin air.</p>
+                    <a href="img/gallery/gallery-img-01.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/gallery-img-02.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2>Fresh <span>Bubba</span></h2>
+                    <p>Bubba likes to appear out of thin air.</p>
+                    <a href="img/gallery/gallery-img-02.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/gallery-img-03.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2>Fresh <span>Bubba</span></h2>
+                    <p>Bubba likes to appear out of thin air.</p>
+                    <a href="img/gallery/gallery-img-03.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/gallery-img-04.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2>Fresh <span>Bubba</span></h2>
+                    <p>Bubba likes to appear out of thin air.</p>
+                    <a href="img/gallery/gallery-img-04.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/gallery-img-05.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2>Fresh <span>Bubba</span></h2>
+                    <p>Bubba likes to appear out of thin air.</p>
+                    <a href="img/gallery/gallery-img-05.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/gallery-img-06.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2>Fresh <span>Bubba</span></h2>
+                    <p>Bubba likes to appear out of thin air.</p>
+                    <a href="img/gallery/gallery-img-06.jpg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <span>Copyright 2019 Simple Profile</span>
+      <span>designed by TemplateMo</span>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Magnific Pop up
+      // https://dimsemenov.com/plugins/magnific-popup/
+      $('.gallery').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        gallery: {
+          enabled: true
+        },
+      });
+    });
+  </script>
+
+</body>
+</html>

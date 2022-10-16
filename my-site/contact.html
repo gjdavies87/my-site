@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gary Davies Contact page</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="page-container mx-auto">
+        <header class="header text-center">
+            <h1 class="title text-uppercase">Gary Davies</h1>
+            <p class="primary-color"><i>Portfolio</i></p>
+        </header>
+
+        <section class="section">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <a href="index.html"><span class="nav-deco"></span>Intro</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"><span class="nav-deco"></span>Portfolio</a>
+                    </li>
+                    <li class="active">
+                        <a href="contact.html"><span class="nav-deco"></span>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="content-container">
+                <div class="mb-0 img-overlay-wrap">
+                    <div class="img-overlay"></div>
+                    <div class="img-overlay-text text-white p-5">
+                        <h4 class="mb-4">Contact Text on Image</h4>
+                        <p class="small">
+                            Text on image has a CSS semi-transparent BG layer on image.
+                            Praesent ut metus nibh. Vivamus diam purus, finibus et porttitor
+                            quis, tristique ac velit. Etiam sed nunc eget lacus sagittis
+                            hendrerit at ullamcorper nulla.
+                        </p>
+                    </div>
+                </div>
+                <div class="content">
+                    <form action="" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="contact_name" name="contact_name"
+                                class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                                placeholder="Name" required="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contact_email" name="contact_email"
+                                class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                                placeholder="Email" required="" />
+                        </div>
+
+                        <div class="form-group">
+                            <textarea rows="6" id="contact_message" name="contact_message"
+                                class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
+                                placeholder="Message..." required=""></textarea>
+                        </div>
+
+                        <div class="form-group text-right">
+                            <button type="submit" class="btn btn-primary rounded-0">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+        </footer>
+    </div>
+</body>
+
+</html>
